@@ -1,0 +1,26 @@
+{
+  "name": "TsApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "dev": "tsc -w",
+    "test": "jest"
+  },
+  "dependencies": {
+    "native-base": "^2.3.6",
+    "react": "16.2.0",
+    "react-native": "0.52.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.34",
+    "@types/react-native": "^0.52.0",
+    "babel-jest": "22.0.6",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.0.6",
+    "react-test-renderer": "16.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

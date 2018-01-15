@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"outDir": "./lib/",
+		"declaration": true,
+		"sourceMap": true,
+		"noImplicitAny": true,
+		"module": "es2015",
+		"target": "es5",
+		"moduleResolution": "node",
+		"skipLibCheck": true,
+		"jsx": "react",
+		"jsxFactory": "React.createElement",
+		"allowJs": false,
+		"allowSyntheticDefaultImports": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"noEmit": false,
+	},
+	"compileOnSave": false,
+	"exclude": [
+		"node_modules",
+		"node_modules/*",
+		"assets/plugins/*",
+		"node_modules/**/*",
+		"node_modules/@types",
+		"dist",
+		"lib",
+		"tsdist"
+	],
+	"include": [
+		"./src/**/*"
+	]
+}
