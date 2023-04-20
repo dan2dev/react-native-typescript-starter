@@ -10,7 +10,7 @@
   "dependencies": {
     "native-base": "^2.3.6",
     "react": "16.2.0",
-    "react-native": "0.52.0"
+    "react-native": "0.71.7"
   },
   "devDependencies": {
     "@types/react": "^16.0.34",
